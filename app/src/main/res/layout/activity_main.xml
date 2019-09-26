@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập A:"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <EditText
+        android:id="@+id/editText_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <TextView
+        android:id="@+id/textView_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập B:"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <EditText
+        android:id="@+id/editText_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/button_kq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết Qủa"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="364dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:text="Ax + B = 0"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="#00C72222"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="310dp" />
+
+   <TextView
+       android:id="@+id/textView_kq"
+       android:layout_width="249dp"
+       android:layout_height="47dp"
+       tools:layout_editor_absoluteX="4dp"
+       tools:layout_editor_absoluteY="381dp" />
+</LinearLayout>
